@@ -324,7 +324,9 @@ img {
   }
   .project-card {
     width: 47%;
-    min-height: 300px;
+  }
+  .project-card__image {
+    height: 420px;
   }
   .footer-menu form {
     display: none;
@@ -340,30 +342,26 @@ img {
     padding-bottom: 40px;
     padding-top: 60px;
   }
-  .name, .description-small{
-    font-size: 14px;
-  }
-  .menu-list a {
-    margin-right: 10px;
+  .menu-list {
+    display: none;
   } 
   .header-btn-menu {
     display: none;
   }
   .project-card {
-    width: 47%;
-    min-height: 270px;
+    width: 90%;
+    min-height: 300px;
   }
-  .footer {
-    font-size: 11px;
+  .project-card__image {
+    height: 420px;
   }
-  .footer-menu a {
-    margin-left: 10px;
-    font-size: 14px;
-  }
-  .footer-social__link {
-    font-size: 13px;
-  }
-  .footer-menu form {
+  .footer-menu {
     display: none;
+  }
+  .footer-info {
+    justify-content: center;
+  }
+  .about-me p {
+    width: 450px;
   }
 }
