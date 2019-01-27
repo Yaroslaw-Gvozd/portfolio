@@ -365,3 +365,64 @@ img {
     width: 450px;
   }
 }
+@media (max-width: 420px) {
+  .container {
+    width: 90%;
+  }
+  .hero {
+    background: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 60px;
+  }
+  .hero-buttons {
+  margin-top: 20px;
+ }
+.button {
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 14px 24px;
+  display: inline-block;
+  margin-right: 10px;
+}
+  .button-o {
+  color: #6a696b;
+  background-color: transparent;
+  border: 1px solid #6a696b;
+}
+  .menu-list {
+    display: none;
+  } 
+  .header-btn-menu {
+    display: none;
+  }
+  .project-card {
+    width: 90%;
+    min-height: 200px;
+  }
+  .project-card__image {
+    height: 200px;
+  }
+  .footer-menu {
+    display: none;
+  }
+  .copyright {
+    border-right: none;   
+    border-bottom: 1px solid #413F41;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    padding-right: 0;
+  }
+  .footer-text {
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about-me p {
+    width: 300px;
+  }
+}
